@@ -1,12 +1,5 @@
 <!DOCTYPE html>
-<!-- comentário -->
-<!-- 
-	- O DOCTYPE é o que chamamos de Document Type Definition.
--->
-
-<!-- Tag principal / root -->
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,23 +7,77 @@
 </head>
 
 <body>
-
+    <!--Cabecalho-->
+    <!--./ para inserir um arquivo-->
     <header>
+
         <h1>Home</h1>
+
         <nav>
-            <ul>
-                
-                <li><a href="#">Item-1</a></li>
-              <li><a href="#">Item-2</a></li>
-              <li><a href="#">Item-3</a></li>
-              
+            <!--Comentário-->
+            <ul style="list-style: square;">
+                <li><a href="./detalhes.html">Detalhes</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./locais.html">Locais</a></li>
+                <li><a href="./paginas/">Paginas</a></li>
             </ul>
         </nav>
+
     </header>
+    <!--Cabecalho-->
 
-    <main></main>
-    <footer></footer>
+    <!--Conteudo-->
+    <main>
 
+        <section>
+
+                <h2>Bolos Maravilhosos</h2>
+                <ul>
+                    <li>
+                        <strong>Bolo de Cenoura de Liquidificador:</strong>
+                        Bata cenouras, óleo, açúcar, ovos, leite, farinha e fermento, depois asse por 35 minutos. Cubra com calda de brigadeiro feita com leite condensado e cacau em pó.
+                    </li>
+
+                    <li>
+                        <strong>Bolo de Chocolate com Café:</strong>
+                        Misture ovos, açúcar, óleo, café coado quente, chocolate em pó e farinha para uma massa bem fofinha e úmida.
+                    </li>
+
+                    <li>
+                        <strong>Bolo Simples da Vovó:</strong>
+                        Bata ovos com manteiga e açúcar, adicione leite, amido de milho, farinha de trigo e fermento para uma textura leve.
+                    </li>
+                </ul>
+
+                <img src="./img/img-boloDeCenoura.jpg" 
+                    alt="Bolo de Cenoura" 
+                    class="img" 
+                    width="20%"
+
+        </section> 
+        <header>
+            <h2>Itens para preparo</h2>
+            <ul>
+                <li>Tigela ou batedeira: Para misturar os ingredientes.</li>
+                <li>Fue ou colher grande: Para incorporar a massa.</li>
+                <li>Forma: Untada com manteiga e farinha.</li>
+                <li>Forno: Pré-aquecido para assar de forma uniforme.</li>
+            </ul>
+        </header>
+        
+    </main>
+    <!--Cabecalho-->
+    <!--Conteudo-->
+    <footer>
+        <form>
+            <fieldset>
+                <legend>CONTATO</legend>
+                <label for="email" email:>Email></label>
+                <input type="email" name="email" placeholder="Digite seu email>
+                <input type="subimit" value="Enviar">
+            </fieldset>
+        </form>
+    </footer>
+    <!--Rodape-->
 </body>
-
 </html>
