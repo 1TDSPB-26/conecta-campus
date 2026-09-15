@@ -1,27 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cobecta campus</title>
-</head>
-
-<body>
-
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Campus</title>
+  </head>
+ 
+  <body>
+    <!-- CABECALHO -->
     <header>
-        <h1>home</h1>
-        <nav>
-            <ul>
-                <li><a href"#">item-1</a></li>
-                <li><a href"#">item-2</a></li>
-                <li><a href"#">item-3</a></li>
-            </ul>
-        </nav>
+      <h1>Home</h1>
+      <nav>
+        <ul style="list-style: square">
+          <li><a href="./detalhes.html">Detalhes</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./locais.html">Locais</a></li>
+          <li><a href="./paginas/pagina1.html">Pagina-1</a></li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <!-- CABECALHO -->
+     <!-- CONTEUDO -->
+    <main>
+        <section>
+            <h2>Campus ao redor do Mundo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloribus aspernatur iusto alias dicta amet molestiae distinctio explicabo illo odio! Soluta possimus unde illo dicta laborum maxime minus nihil numquam autem. Architecto, magnam. Eius dicta sint nam eligendi neque beatae, soluta veniam accusantium officiis facere porro atque laudantium, iure consequuntur.</p>
+            <!-- <img src="https://picsum.photos/200/300" alt="Bolo" class="img"> -->
+            <img src="./img/img-02.webp" alt="Bolo" class="img" width="30%">
+        </section>
+        <article>
+            <h2>Bolos Maravilhosos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloribus aspernatur iusto alias dicta amet molestiae distinctio explicabo illo odio! Soluta possimus unde illo dicta laborum maxime minus nihil numquam autem.</p> 
+            <a href="#">mais...</a>
 
-</body>
-
+        </article>
+    </main>
+    <!-- CONTEUDO -->
+    <!-- RODAPE -->
+    <footer>
+        <Div>
+            <form>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </Div>
+        <p>copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus</p>
+    </footer>
+    <!-- RODAPE -->
+  </body>
+ 
 </html>
