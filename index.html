@@ -1,82 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conecta Campus</title>
-</head>
 
-<body>
-    <!--Cabecalho-->
-    <!--./ para inserir um arquivo-->
-    <header style = "background-color: #fbf3f3;">
-        <h1>Home</h1>
-        <nav>
-            <ul style="list-style: square;">
-                <li><a href="./detalhes.html">Detalhes</a></li>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./locais.html">Locais</a></li>
-                <li><a href="./paginas/paginas.html">Paginas</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="./css/style.css">
 
+  </head>
+
+  <body>
+   <!-- CABECALHO -->
+    <header style="background-color: #272626;color:#ffffff;">
+      <h1>Home</h1>
+      <nav id="menu">
+        <ul style="list-style: square;">
+          <li><a style="text-decoration: none;" href="./detalhes.html">Detalhes</a></li>
+          <li><a  style="text-decoration: none;" href="./locais.html">Locais</a></li>
+          <li><a style="text-decoration: none;" href="./paginas/pagina1.html">Página-1</a></li>
+        </ul>
+      </nav>
     </header>
-    <!--Cabecalho-->
-
-    <!--Conteudo-->
+    <!-- CABECALHO -->
+    <!-- CONTEUDO -->
     <main>
-
         <section>
-                
-                <h2>Bolos Maravilhosos</h2>
-                <ul>
-                    <li>
-                        <strong>Bolo de Cenoura de Liquidificador:</strong>
-                        Bata cenouras, óleo, açúcar, ovos, leite, farinha e fermento, depois asse por 35 minutos. Cubra com calda de brigadeiro feita com leite condensado e cacau em pó.
-                    </li>
-
-                    <li>
-                        <strong>Bolo de Chocolate com Café:</strong>
-                        Misture ovos, açúcar, óleo, café coado quente, chocolate em pó e farinha para uma massa bem fofinha e úmida.
-                    </li>
-
-                    <li>
-                        <strong>Bolo Simples da Vovó:</strong>
-                        Bata ovos com manteiga e açúcar, adicione leite, amido de milho, farinha de trigo e fermento para uma textura leve.
-                    </li>
-                </ul>
-
-                <img src="./img/BoloDeCenoura.jpg" 
-                    alt="Bolo de Cenoura" 
-                    class="img" 
-                    width="20%"
-
-        </section> 
-        <header>
-            <h2>Itens para preparo</h2>
-            <ul>
-                <ol style="padding-left: 2px;">
-                    <li>Tigela ou batedeira: Para misturar os ingredientes.</li>
-                    <li>Fue ou colher grande: Para incorporar a massa.</li>
-                    <li>Forma: Untada com manteiga e farinha.</li>
-                    <li>Forno: Pré-aquecido para assar de forma uniforme.</li>
-                </ol>
-            </ul>
-        </header>
-        
+           <h2>Campus ao redor do Mundo</h2>
+           <p class="paragrafo-conteudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum itaque non porro? Ut qui sequi repellat magni adipisci maiores, error dolor eaque at quibusdam, accusantium laudantium similique nihil aliquid voluptatum, ex blanditiis modi enim doloremque soluta obcaecati deserunt. Quisquam fugit recusandae laudantium repudiandae voluptatibus aspernatur ad modi veniam atque quos!</p>
+           <!-- <img src="https://picsum.photos/200/300" alt="Bolo" class="img"> -->
+            <img src="./img/BoloDeCenoura.jpg" alt="Construção" class="img" width="20%">
+        </section>
+        <article>
+            <h2>Bolos Maravilhosos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illo distinctio quidem reiciendis aliquam numquam vero a officiis sed officia, asperiores corrupti beatae iusto quis, tenetur nisi rerum. Ut, quam!</p>
+            <a href="#">mais...</a>
+        </article>
     </main>
-    <!--Cabecalho-->
-    <!--Conteudo-->
+    <!-- CONTEUDO -->
+    <!-- RODAPE -->
     <footer>
-        <form>
-            <fieldset>
-                <legend>CONTATO PARA MAIS INFORMAÇÕES</legend>
-                <label for="email" email:</label>Email</label>
-                <input type="email" name="email" placeholder="Digite seu email">
-                <input type="button" value="Enviar">
-            </fieldset>
-        </form>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>CONTATO</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+        <p>Copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus</p>
     </footer>
-    <!--Rodape-->
-</body>
+    <!-- RODAPE -->
+  </body>
+
 </html>

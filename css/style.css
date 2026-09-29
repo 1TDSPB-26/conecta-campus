@@ -1,0 +1,46 @@
+ 
+ header{
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+ a{
+    text-decoration: none;
+    color: #fafafa;
+ }
+
+ p{
+   color: #0000ff;
+   font-weight: bold;
+ }
+
+ .paragrafo-conteudo{
+   color: #ff0000;
+   font-weight: normal;
+ }
+
+ #menu{
+    background-color: #7c2e30;
+ }
+
+ input[type="email"]{
+   border:2px solid #0000ff;
+ }
+
+ a:link{
+   color:#fff000;
+ }
+
+ a:active{
+   color:#ff0000;  
+ }
+
+ a:hover{
+    background-color: #fafafa;
+    color: #000000;
+ }
+
+ a[href="#"]:hover{
+    background-color: #000000;
+    color: #fafafa;
+ }
