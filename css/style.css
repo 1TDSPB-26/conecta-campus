@@ -1,9 +1,126 @@
+ *{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* MEU -
  header {
-     background-color: #000000;
-     color: #ffffff;
+     background-color: #d86cba;
+     color: #111a9c;
  }
 
  a {
     text-decoration: none;
     color: #ba9ceb;
  }
+
+  p{
+   color: #561ebe;
+   font-weight: bold;
+ }
+
+ .paragrafo-conteudo {
+    color: #610374;
+    font-size: 20px;
+ }
+
+
+ #menu {
+
+    background-color: #000
+}
+
+input [type="email"] {
+    border: 2px solid #faf603;
+}
+
+a:link{
+    color: #11e9bb;
+}
+
+ a:active{
+   color:#9ad1f3;  
+ }
+
+ a:hover{
+   background-color: #d4ed61;
+   color: #000000;
+ }
+
+ a[href="#"]:hover{
+   background-color:  #000000;
+   color: #d4ed61;
+ }
+
+main article a{
+    background-color: #d4ed61;
+    color: #000000;
+
+}
+
+
+main article a:nth-child(3){
+      text-decoration: none;
+      background-color:  #000000;
+      color: #e12828;
+  } */
+
+
+ /*  DO PROFESSOR -
+ header{
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+ a{
+    text-decoration: none;
+    color: #00ff00;
+ }
+
+ p{
+   color: #0000ff;
+   font-weight: bold;
+ }
+
+ .paragrafo-conteudo{
+   color: #ff0000;
+   font-weight: normal;
+ }
+
+ #menu{
+   background-color: #0000ff;
+ }
+
+ input[type="email"]{
+   border:2px solid #0000ff;
+ }
+
+ a:link{
+   color:#fff000;
+ }
+
+ a:active{
+   color:#ff0000;  
+ }
+
+ a:hover{
+   background-color: #ffffff;
+   color: #000000;
+ }
+
+ a[href="#"]:hover{
+   background-color:  #000000;
+   color: #ffffff;
+ }
+  
+
+  main article a:hover{
+      background-color:  #000000;
+      color: #ffffff;
+  } 
+
+  main article a:nth-child(3):hover{
+      text-decoration: none;
+      background-color:  #000000;
+      color: #ffffff;
+  } */
