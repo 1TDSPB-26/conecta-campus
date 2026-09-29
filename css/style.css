@@ -1,5 +1,16 @@
- 
- header{
+ /*
+Comentario Css
+*/
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*RESET*/
+
+ /* header{
     background-color: #000000;
     color: #ffffff;
  }
@@ -26,7 +37,6 @@
  input[type="email"]{
    border:2px solid #0000ff;
  }
-
  a:link{
    color:#fff000;
  }
@@ -43,4 +53,9 @@
  a[href="#"]:hover{
     background-color: #000000;
     color: #fafafa;
- }
+
+
+ main article a:nth-child(3):hover{
+    background-color: #000000;
+    color: #fafafa;
+ } */
