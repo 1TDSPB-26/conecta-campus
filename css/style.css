@@ -1,10 +1,57 @@
-
-header {
-    background-color: #000000;
-    color: #ffffff;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* RESET */
 
-a {
+/*
+header{
+    background-color: #470303;
+    color: #f6f7f6;
+ }
+
+ a{
     text-decoration: none;
-    color: #ff0000;
+    color: #f6f7f6;
+ }
+
+ p{
+   color: #000000;;
+ }
+
+ .paragrafo-conteudo{
+   color: #000000;
+ }
+
+ #menu{
+    background-color: #470303;
+    color: #000000;
+ }
+
+ input[type="email"]{
+     border: 2px solid #470303;
+ }
+
+ a:link{
+    color: #00ccff;
+ }
+
+ a:hover{
+    color: #0011ff;
+ }
+
+a[href]{
+    background-color: #470303;
+    color: #fcfcfc;
 }
+
+main article a:hover{
+    background-color: #470303;
+    color: #fcfcfc;
+}
+*/
+   
+    
+    
