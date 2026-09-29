@@ -1,3 +1,21 @@
-body{
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 99%);color: white;
+/* body{
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgb(211, 165, 101) 99%);color: white;
+}
+p{
+    color:aliceblue;
+}
+.paragrafo-conteudo{
+    color: black;
+}
+#menu{
+    background-color: rgb(245, 242, 231);
+}
+
+input[type="email"] {
+    border:2px solid #0000ff;
+} */
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
 }
