@@ -3,10 +3,40 @@
    margin:0;
    padding: 0;
    box-sizing: border-box;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   color: #000000;
 }
 /* RESET */
 
+html{
+  font-size: 62%; 
+}
 
+.cabecalho{
+  font-size: 2rem;
+  width: 100%;
+  background-color: aqua;
+}
+
+.cabecalho h1{
+  background-color: rgb(120, 121, 151);
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main section{
+  width: 100%;
+}
+
+.img{
+  width: 50%;
+  margin:5% auto;
+  display: block;
+}
 
 
 /*  
