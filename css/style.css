@@ -3,12 +3,36 @@
    margin:0;
    padding: 0;
    box-sizing: content-box;
+   font-size: 16px;
+   font-weith: normal;
+   text-decoration: none;
+   color: #000000;
 }
 /* RESET */
 
-head
+html{ 
+font-size; 62%;
 
 
+}
+
+.cabecalho{
+   font-size; 2rem;
+  width: 100%;
+  background-color: #03dffc;
+}
+.cabecalho h1{
+  background-color: #03dffc;
+   font-size: 2rem;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+.img{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
 /*  
  header{
     background-color: #000000;
