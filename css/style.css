@@ -1,9 +1,61 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ /* RESET */
+ 
  header {
-     background-color: #000000;
-     color: #ffffff;
+  background-color: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    color: #ffff;
  }
 
   a {
       text-decoration: none;
       color: #00ff00;
+  }
+
+  p {
+    color: #0000ff;
+    font-weight: bold;
+  }
+
+  .paragrafo-conteudo {
+    color: #ff0000
+  }
+
+  #menu {
+    background-color: #0000ff;
+  }
+
+ input[type="email"]{
+   border:2px solid #0000ff;
+ }
+
+
+ a:active{
+   color:#ff0000;  
+ }
+
+ a:hover{
+   background-color: #ffffff;
+   color: #000000;
+ }
+
+ /* a[href="#"]:hover{
+   background-color:  #000000;
+   color: #ffffff;
+ }
+  */
+
+  main article a:hover{
+      background-color:  #000000;
+      color: #ffffff;
+  }
+
+  
+  main article a:nth-child(3):hover {
+      background-color:  #000000;
+      color: #ffffff;
   }
