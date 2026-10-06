@@ -1,10 +1,29 @@
+/*RESET*/
 *{
    margin:0;
    padding: 0;
-   box-sizing: border-box;
+   box-sizing: content-box;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   color: #000000;
+}
+
+html{
+  font-size: 62%; 
+}
+
+.cabecalho{
+  font-size: 2rem;
+}
+
+h1{
+  font-size: 2em;
 }
 
 
+
+/*RESET*/
 
 /*
 header{
