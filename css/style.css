@@ -2,9 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+
  }
+
+ header{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   color: #000000;
+}
+
+
  /* RESET */
- 
+
+html {
+  font-size: 100%;
+}
+
+ .cabecalho {
+  font-size: 1rem;
+ }
+
+
+ h1 {
+  font-size: 1em;
+ }
+/*  
  header {
   background-color: #EEAECA;
     background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -49,7 +77,7 @@
  }
   */
 
-  main article a:hover{
+  /* main article a:hover{
       background-color:  #000000;
       color: #ffffff;
   }
@@ -58,4 +86,4 @@
   main article a:nth-child(3):hover {
       background-color:  #000000;
       color: #ffffff;
-  }
+  } */ 
