@@ -1,23 +1,35 @@
- /*
-Comentario Css
-*/
-
-/*RESET*/
+/* RESET */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   color: #000000;
 }
-/*RESET*/
+/* RESET */
 
- /* header{
+html{
+  font-size: 62%; 
+}
+
+.cabecalho{
+  font-size: 2rem;
+  width: 100%;
+  background-color: aqua;
+}
+
+
+/*  
+ header{
     background-color: #000000;
     color: #ffffff;
  }
 
  a{
     text-decoration: none;
-    color: #fafafa;
+    color: #00ff00;
  }
 
  p{
@@ -31,12 +43,13 @@ Comentario Css
  }
 
  #menu{
-    background-color: #7c2e30;
+   background-color: #0000ff;
  }
 
  input[type="email"]{
    border:2px solid #0000ff;
  }
+
  a:link{
    color:#fff000;
  }
@@ -46,16 +59,24 @@ Comentario Css
  }
 
  a:hover{
-    background-color: #fafafa;
-    color: #000000;
+   background-color: #ffffff;
+   color: #000000;
  }
 
  a[href="#"]:hover{
-    background-color: #000000;
-    color: #fafafa;
+   background-color:  #000000;
+   color: #ffffff;
+ }
+  
 
+  main article a:hover{
+      background-color:  #000000;
+      color: #ffffff;
+  } 
 
- main article a:nth-child(3):hover{
-    background-color: #000000;
-    color: #fafafa;
- } */
+  main article a:nth-child(3):hover{
+      text-decoration: none;
+      background-color:  #000000;
+      color: #ffffff;
+  } 
+      */
