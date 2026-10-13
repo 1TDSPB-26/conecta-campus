@@ -28,3 +28,19 @@ img{
     padding: 0.75rem 1rem;
 }
 
+.container{
+    width: 92%;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto; }
+
+@media (min-width: 48rem){
+    .hero {
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+
+    .hero h1{
+        font-size: 2.8rem;
+    }
+}
