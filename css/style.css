@@ -1,12 +1,36 @@
 /*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000000;
+}
+
+html{
+    font-size: 62%;
+}
+
+.cabecalho{
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 2em;
+}
 
 
-header {
+/*header {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #ff0000;
+    width: 250px;
     background-color: #000000;
     color: #ffffff;
 }
 
 a {
-    text-decoration: none;
-    color: #00ff00;
-}
+
+}*/
