@@ -1,55 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes</title>
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Campus - Detalhes</title>
+
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- CABEÇALHO -->
+
+  </head>
+
+  <body>
+   <!-- CABECALHO -->
     <header>
-        <h1>Detalhes</h1>
-        <nav>
-            <ul style="list-style: circle;">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./locais.html">Locais</a></li>
-                <li><a href="./paginas/pagina1.html">Pagina-1</a></li>
-            </ul>
+      <div class="container">
+        <h1>DETALHES</h1>
+        <nav id="menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./locais.html">Locais</a></li>
+            <li><a href="./paginas/pagina1.html">Página-1</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
-    <!-- CABEÇALHO -->
+    <!-- CABECALHO -->
     <!-- CONTEUDO -->
-    <main>
-        <section>
+    <main class="secao container">
+        <section class="hero">
+          <div class="container">
             <h2>Campus ao redor do Mundo</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, commodi? Explicabo delectus cumque eos nesciunt, aliquid expedita! Quis sed dignissimos voluptas quos itaque provident exercitationem dolore, fuga autem consectetur est, aperiam, deserunt laborum voluptates nobis eum quibusdam sunt asperiores commodi pariatur ad aut tempore iure veniam. Quasi, accusantium. Accusamus, veniam. 
-                </p>
-            <img src="./img/img-01-Campus.jpg" alt="Bolo" title="Bolo de fuba" class="img" width="30%">
-            </img>
+            <p class="paragrafo-conteudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum itaque non porro? Ut qui sequi repellat magni adipisci maiores, error dolor eaque at quibusdam, accusantium laudantium similique nihil aliquid voluptatum, ex blanditiis modi enim doloremque soluta obcaecati deserunt. Quisquam fugit recusandae laudantium repudiandae voluptatibus aspernatur ad modi veniam atque quos!</p>
+             <img src="./img/img-01-campus.jpg" alt="Construção" class="img">
+          </div>
         </section>
         <article>
             <h2>Bolos Maravilhosos</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus debitis ipsum ratione voluptate error atque! Minima nobis modi deleniti unde iusto voluptate delectus natus, magnam, dignissimos ad nesciunt, quos aspernatur?
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illo distinctio quidem reiciendis aliquam numquam vero a officiis sed officia, asperiores corrupti beatae iusto quis, tenetur nisi rerum. Ut, quam!</p>
+            <a href="#">mais...</a>
         </article>
     </main>
     <!-- CONTEUDO -->
     <!-- RODAPE -->
     <footer>
-        <div> 
+        <div class="container">
             <form>
                 <fieldset>
                     <legend>CONTATO</legend>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="Digite seu email">
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
                     <input type="submit" value="Enviar">
                 </fieldset>
             </form>
         </div>
-        <p>Copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus <img src="./img/Corinthians_simbolo.png" alt="corinthians" class="img" width="1%"></p>
+        <p class="paragrafo-conteudo">Copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus</p>
     </footer>
     <!-- RODAPE -->
-</body>
+  </body>
+
 </html>
