@@ -44,3 +44,14 @@ img{
         font-size: 2.8rem;
     }
 }
+
+@media (min-width: 48rem){
+    .cabecalho nav,
+    .menu li {
+        display: inline-block;
+    }
+    .menu li {
+        margin-right: 0.25rem;
+        margin-bottom: 0;
+    }
+}
