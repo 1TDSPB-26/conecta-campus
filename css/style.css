@@ -35,3 +35,27 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (min-width: 48rem) {
+  .hero {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 48rem) {
+
+  .cabecalho nav,
+  .menu li {
+    display: inline-block;
+  }
+
+  .menu li {
+    margin-right: 0.25rem;
+    margin-bottom: 0;
+  }
+}
