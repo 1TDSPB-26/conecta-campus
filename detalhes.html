@@ -1,57 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Conecta Campus - Detalhes</title>
-
-        <link rel="stylesheet" href="./css/style.css">
-
-    </head>
-
-    <body>
-        <!-- CABECALHO -->
-        <header class="cabecalho">
-            <h1>DETALHES</h1>
-            <nav id="menu">
-                <ul>
-                    <li><a  href="./index.html">Home</a></li>
-                    <li><a  href="./locais.html">Locais</a></li>
-                    <li><a  href="./paginas/pagina1.html">Página-1</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- CABECALHO -->
-        <!-- CONTEUDO -->
-        <main>
-            <section>
-                <h2>Campus ao redor do Mundo</h2>
-                <p class="paragrafo-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam mollitia unde natus fugiat odit dolorum reprehenderit? Temporibus unde totam at ad vero soluta reprehenderit quam, ea ratione non optio, placeat veritatis autem accusantium aut eos nisi aliquam explicabo excepturi amet molestias. Inventore aperiam doloremque accusantium dolore temporibus, totam incidunt voluptatum.</p>
-                <img src="./img/img-01-campus.jpg" alt="Construção" class="img">
-            </section>
-            <article>
-                <h2>Bolos Maravilhosos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam mollitia unde natus fugiat odit dolorum reprehenderit? Temporibus unde totam at ad vero soluta reprehenderit quam, ea ratione non optio, placeat veritatis autem accusantium aut eos nisi aliquam explicabo excepturi amet molestias. Inventore aperiam doloremque accusantium dolore temporibus, totam incidunt voluptatum.</p>
-                <a href="#">mais...</a>
-            </article>
-        </main> 
-        <!-- CONTEUDO -->
-        <!-- RODAPE -->
-        <footer>
-            <div>
-                <form>
-                    <fieldset>
-                        <legend>CONTATO</legend>
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-                        <input type="submit" value="Enviar">
-                    </fieldset>
-                </form>
-            </div>
-            <p>Copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus</p>
-        </footer>
-        <!-- RODAPE -->
-    </body>
-
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conecta Campus | Acessibilidade</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!--
+  RMXXXXXX-NOME COMPLETO
+  RMXXXXXX-NOME COMPLETO
+  -->
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a class="marca" href="index.html">Conecta Campus</a>
+      <button class="botao-menu" id="botao-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span>Menu</span>
+        <span class="icone-menu" aria-hidden="true">☰</span>
+      </button>
+      <nav id="menu-principal" class="navegacao-principal" aria-label="Navegação principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="locais.html">Locais</a></li>
+          <li><a href="detalhes.html" aria-current="page">Acessibilidade</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="integrantes.html">Integrantes</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="secao container">
+    <article>
+      <p class="etiqueta">Estudo e acessibilidade</p>
+      <h1>Biblioteca Central</h1>
+      <img class="imagem-detalhe" src="img/biblioteca.svg" alt="Estantes e mesas de estudo na biblioteca">
+      <h2>Recursos disponíveis</h2>
+      <ul>
+        <li>Entrada sem degraus pelo corredor norte.</li>
+        <li>Mesas com espaço para cadeira de rodas.</li>
+        <li>Atendimento no térreo.</li>
+      </ul>
+      <section id="orientacao" aria-labelledby="titulo-orientacao">
+        <h2 id="titulo-orientacao">Orientação de chegada</h2>
+        <button class="botao" id="botao-orientacao" type="button" aria-expanded="false" aria-controls="painel-orientacao">Mostrar orientação</button>
+        <div id="painel-orientacao" hidden>
+          <p>Entre pelo portão principal, siga até o Bloco B e utilize a rampa do corredor norte.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="rodape"><div class="container"><p>Conecta Campus v0.5 | <span data-ano-atual>2026</span></p></div></footer>
+</body>
 </html>
+
+

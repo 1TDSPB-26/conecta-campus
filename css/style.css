@@ -1,101 +1,291 @@
-/* RESET */
-*{
-   margin:0;
-   padding: 0;
-   box-sizing: border-box;
-   font-style: normal;
-   font-weight: normal;
-   text-decoration: none;
-   color: #000000;
-}
-/* RESET */
+/*
+RMXXXXXX-NOME COMPLETO
+RMXXXXXX-NOME COMPLETO
+*/
 
-html{
-  font-size: 62%; 
-}
-
-.cabecalho{
-  font-size: 2rem;
-  width: 100%;
-  background-color: aqua;
+html {
+  font-size: 16px;
+  --cor-fundo: #f4f7fb;
+  --cor-superficie: #ffffff;
+  --cor-texto: #172033;
+  --cor-primaria: #1457c5;
+  --cor-primaria-escura: #0b2f6b;
+  --cor-borda: #d8e2ee;
+  --cor-erro: #b42318;
+  --cor-sucesso: #067647;
 }
 
-.cabecalho h1{
-  background-color: rgb(120, 121, 151);
-  font-size: 2em;
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-main section{
-  width: 100%;
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.img{
-  width: 50%;
-  margin:5% auto;
+img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-/*  
- header{
-    background-color: #000000;
-    color: #ffffff;
- }
+a {
+  color: var(--cor-primaria);
+}
 
- a{
-    text-decoration: none;
-    color: #00ff00;
- }
+a:hover {
+  color: var(--cor-primaria-escura);
+}
 
- p{
-   color: #0000ff;
-   font-weight: bold;
- }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 0.2rem solid #f2b705;
+  outline-offset: 0.15rem;
+}
 
- .paragrafo-conteudo{
-   color: #ff0000;
-   font-weight: normal;
- }
+.container {
+  width: 92%;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- #menu{
-   background-color: #0000ff;
- }
+.cabecalho {
+  background: var(--cor-superficie);
+  border-bottom: 0.0625rem solid var(--cor-borda);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
- input[type="email"]{
-   border:2px solid #0000ff;
- }
+.marca {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: var(--cor-primaria-escura);
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
 
- a:link{
-   color:#fff000;
- }
+.botao-menu {
+  display: none;
+}
 
- a:active{
-   color:#ff0000;  
- }
+/* TODO v0.5: estilizar o botão e controlar a navegação no celular. */
 
- a:hover{
-   background-color: #ffffff;
-   color: #000000;
- }
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
- a[href="]
+.menu li {
+  margin-bottom: 0.35rem;
+}
 
- a[href="#"]:hover{
-   background-color:  #000000;
-   color: #ffffff;
- }
-  
+.menu a {
+  display: block;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+}
 
-  main article a:hover{
-      background-color:  #000000;
-      color: #ffffff;
-  } 
+.menu a:hover,
+.menu a[aria-current="page"] {
+  background: #eaf2ff;
+  text-decoration: underline;
+}
 
-  main article a:nth-child(3):hover{
-      text-decoration: none;
-      background-color:  #000000;
-      color: #ffffff;
-  } 
-      */
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: #eaf2ff;
+}
+
+.hero h1 {
+  max-width: 18ch;
+  margin-top: 0.35rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.etiqueta {
+  color: var(--cor-primaria-escura);
+  font-weight: 700;
+}
+
+.botao {
+  display: inline-block;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--cor-primaria);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: var(--cor-primaria-escura);
+  color: #ffffff;
+}
+
+.secao {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cartao,
+.local-resumo,
+.integrante,
+form {
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border: 0.0625rem solid var(--cor-borda);
+  border-radius: 0.75rem;
+  background: var(--cor-superficie);
+}
+
+.cartao-conteudo,
+.local-resumo,
+.integrante,
+form {
+  padding: 1.25rem;
+}
+
+.imagem-detalhe,
+.integrante img {
+  max-width: 38rem;
+  border-radius: 0.75rem;
+}
+
+.campo-formulario {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 0.0625rem solid #8b98a8;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  background: #ffffff;
+  color: var(--cor-texto);
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.campo-invalido {
+  border-color: var(--cor-erro);
+}
+
+.mensagem-erro {
+  display: block;
+  min-height: 1.4rem;
+  margin-top: 0.2rem;
+  color: var(--cor-erro);
+  font-weight: 700;
+}
+
+.mensagem-status {
+  min-height: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.mensagem-status.sucesso {
+  color: var(--cor-sucesso);
+}
+
+.mensagem-status.erro {
+  color: var(--cor-erro);
+}
+
+.rodape {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background: var(--cor-primaria-escura);
+  color: #ffffff;
+}
+
+/* A página começa simples para telas pequenas. */
+@media (min-width: 48rem) {
+  .marca {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .cabecalho nav {
+    display: inline-block;
+  }
+
+  .menu li {
+    display: inline-block;
+    margin-right: 0.25rem;
+    margin-bottom: 0;
+  }
+
+  .hero {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .cartao {
+    display: inline-block;
+    width: 31.5%;
+    margin-right: 2%;
+    vertical-align: top;
+  }
+
+  .cartao:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .integrante {
+    max-width: 34rem;
+  }
+
+  form {
+    max-width: 46rem;
+  }
+}
+
+@media (min-width: 70rem) {
+  body {
+    font-size: 1.0625rem;
+  }
+
+  .secao {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+/* TODO v0.5: criar o menu mobile antes de iniciar Flexbox. */
+/* TODO v0.5: refatorar o cabeçalho com Flexbox. */
+/* TODO v0.5: substituir os cartões em inline-block por CSS Grid. */
+
