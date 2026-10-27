@@ -96,18 +96,51 @@
 
 
 
-//let var const
+// console.log(mensagem);
 
+//Criando um array de frutas
+let frutas = ["laranja","banana","uva","maçã"];
 
-//Declaração de variáveis
-let nome = "Mirella";
-var sobrenome = "das Couve";
-const idade = 45;
+//Imprimir o array
+console.log(frutas);
+console.table(frutas);
+//Imprimindo um item do array
+console.log(frutas[0]);
+//Modificando um item do array através do indice
+frutas[0] = "melancia";
+console.log(frutas);
+//Adicionar novos itens ao array
+frutas.push("carambola")
+console.log(frutas);
 
-let preco = 45.78;
+//NovoArray
+const cesta = [...frutas,"acerola"];
+console.log(cesta);
 
-console.log(typeof idade);
-console.log(typeof preco);
-console.log(typeof sobrenome);
+//Criando um objeto pessoa
+let pessoa = {
+    nome : "José",
+    idade : 45,
+    casado : true,
+}
+//Imprimindo o objeto
+console.log(pessoa);
+console.table(pessoa);
+//Imprimindo um item do objeto
+console.log(pessoa.nome);
+//Modificando um atributo do objeto através do atributo
+pessoa.nome = "Antonio";
+console.log(pessoa);
+// //Utilizando o operador SPREAD para adicionar novos atributos ao objeto
+// pessoa = {...pessoa, email : "jose@email.com"};
+pessoa = Object.assign({},pessoa,{email : "jose@email.com"});
+console.table(pessoa);
 
+//Utilização dos aributos DESETRUTURANDO
+
+//NORMAL
+console.log(pessoa.nome);
+//FORMA DESESTRUTURARDA
+const{nome,idade,casado,email} = pessoa;
+console.log(nome,email,casado);
 
