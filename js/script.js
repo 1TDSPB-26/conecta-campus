@@ -97,23 +97,114 @@
 
 
 
-//Declaração de variáveis
-let nome = "José";
-var sobrenome = "das Couves";
-const idade = 45;
-let preco = 45.78;
+// //Declaração de variáveis
+// let nome = "José";
 
-console.log(typeof idade);
-console.log(typeof preco);
-preco = true;
-console.log(typeof sobrenome);
-console.log(typeof preco);
-preco = null;
-console.log(typeof preco);
-let acabou;
-console.log(typeof acabou);
-let pessoa = { nome:"Zé", idade:34};
-console.log(typeof pessoa);
-let lista = ["pera","uva","maçã"];
-console.log(typeof lista);
+// var sobrenome = "das Couves";
+
+// const idade = 45;
+
+// let preco = 45.78;
+
+
+// //number
+// console.log(typeof idade);
+
+// //number
+// console.log(typeof preco);
+
+// //boolean
+// preco = true;
+// console.log(typeof preco);
+
+// //string
+// console.log(typeof sobrenome);
+
+// //
+// preco = null;
+// console.log(typeof preco);
+
+// let acabou;
+// console.log(typeof acabou);
+// let pessoa = { nome:"Zé", idade:34};
+// console.log(typeof pessoa);
+// let lista = ["pera","uva","maçã"];
+// console.log(typeof lista);
+
+
+
+// let idade = 20;
+
+// if (idade >= 18){
+//     let mensagem = "Maior de idade";
+//     console.log(mensagem);
+// }
+
+
+// // let idade = 20;
+
+// if (idade >= 18){
+//     var mensagem = "Maior de idade";
+//     console.log(mensagem);
+// }
+
+// console.log(mensagem);
+
+//Criando um array de frutas
+let frutas = ["laranja","banana","uva","maçã"];
+
+//Imprimir o array
+console.log(frutas);
+console.table(frutas);
+//Imprimindo um item do array
+console.log(frutas[0]);
+//Modificando um item do array através do indice
+frutas[0] = "melancia";
+console.log(frutas);
+//Adicionar novos itens ao array
+frutas.push("carambola")
+console.log(frutas);
+
+//NovoArray
+const cesta = [...frutas,"acerola"];
+console.log(cesta);
+
+//Desestrurando array
+const [primeiro,segundo, ...resto] = frutas;
+console.log("DESTRUCTURE ARRAY" , primeiro,segundo);
+
+console.log("RESTO DAS FRUTAS" , resto);
+
+
+
+//Criando um objeto pessoa
+let pessoa = {
+    nome : "José",
+    idade : 45,
+    casado : true,
+}
+//Imprimindo o objeto
+console.log(pessoa);
+console.table(pessoa);
+//Imprimindo um item do objeto
+console.log(pessoa.nome);
+//Modificando um atributo do objeto através do atributo
+pessoa.nome = "Antonio";
+console.log(pessoa);
+// //Utilizando o operador SPREAD para adicionar novos atributos ao objeto
+// pessoa = {...pessoa, email : "jose@email.com"};
+pessoa = Object.assign({},pessoa,{email : "jose@email.com"});
+console.table(pessoa);
+
+//Utilização dos aributos DESETRUTURANDO
+
+//NORMAL
+console.log(pessoa.nome);
+//FORMA DESESTRUTURADA
+const{nome,idade,casado,email} = pessoa;
+console.log(nome,email,casado);
+
+
+
+
 
