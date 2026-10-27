@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Campus | Início</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+
+  
+    <!--
+  RMXXXXXX-NOME COMPLETO
+  RMXXXXXX-NOME COMPLETO
+  -->
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="index.html" aria-label="Conecta Campus página inicial">Conecta Campus</a>
+            <button class="botao-menu" id="botao-menu" type="button" aria-expanded="false"
+                aria-controls="menu-principal">
+                <span>Menu</span>
+                <span class="icone-menu" aria-hidden="true">☰</span>
+            </button>
+            <nav id="menu-principal" class="navegacao-principal" aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a href="index.html" aria-current="page">Início</a></li>
+                    <li><a href="locais.html">Locais</a></li>
+                    <li><a href="detalhes.html">Acessibilidade</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="login">
+            <h2>Controle de Acesso</h2>
+            <form novalidate method="GET">
+                <fieldset>
+                    <legend>LOGIN</legend>
+                    <div>
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu email" required>
+                    </div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div>
+                        <button type="submit" id="btnLogin">LOGIN</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>    
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>Conecta Campus v0.5 | <span data-ano-atual>2026</span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
